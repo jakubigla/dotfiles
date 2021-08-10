@@ -177,9 +177,6 @@ alias sshtunel='ssh -C2qTnNf -D 9876'
 alias openrepo='open $(git remote get-url origin | sed "s#^git@\(.*\):\(.*\).git$#https://\1/\2#g")'
 alias cat='bat'
 
-alias vpn-server-start='(cd /Users/jaki/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Projects/jacops/algo-aws-deployment && make start)'
-alias vpn-server-stop='(cd /Users/jaki/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Projects/jacops/algo-aws-deployment && make stop)'
-
 export PATH="$PATH:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
