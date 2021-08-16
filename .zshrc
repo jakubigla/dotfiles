@@ -177,7 +177,7 @@ alias sshtunel='ssh -C2qTnNf -D 9876'
 alias openrepo='open $(git remote get-url origin | sed "s#^git@\(.*\):\(.*\).git$#https://\1/\2#g")'
 alias cat='bat'
 
-export PATH="$PATH:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin"
+export PATH="$PATH:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/Users/jakubigla/Library/Python/3.8/bin"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
