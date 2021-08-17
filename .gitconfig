@@ -1,6 +1,6 @@
 [user]
   name = Jakub Igla
-  email = jakub.igla@gmail.com
+  email = jakub.igla@getindata.com
 [core]
   editor = vi
   excludesfile = ~/.gitignore
